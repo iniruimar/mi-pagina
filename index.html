@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>🥎Presentación🐱</title>
+    <link rel="stylesheet" href="style.css" />
     <style>
         table {
           border-collapse: collapse;
@@ -18,36 +19,40 @@
         }
   
         tr:nth-child(even) {
-          background-color: #3787e2;
+          background-color: #035e21;
         }
       </style>
 </head>
 <body>
+  <nav id="barra">
+    Trabajo hecho por Iñigo Ruiz
+  </nav>
+  <article>
     <div><h1>Iñigo Ruiz Marchueta</h1></div>
-    <div><h3>Pequeña introducción</h3>
+    <div id="caja1"><h3>Pequeña introducción</h3>
     <p>Soy de Sevilla, al sur de España, en Andalucía.
          Mis padres son de diferentes partes de españa, mi padre de Cordoba y mi madre de Guipuzcoa.
           Tengo una hermana mayor de 25 años que vive en Vitoria. 
           Estos son mis dos gatos, son madre e hijo.</p>
-    <br><center><img src="img/gatetes.jpeg " width="300" height="200"></center></div>
-    <div><h3>Gustos</h3>
+    <br><center><img id="caja2" src="img/gatetes.jpeg " width="300" height="200"></center></div>
+    <div id="caja1"><h3>Gustos</h3>
     <p>Desde pequeño me ha gustado mucho el deporte. Empece jugando al padel y llegue a un nivel bastante alto, pero por culpa de una lesión de muñeca tuve que dejarlo.
         Pase a hacer natación y tambien llegue a un alto nivel haciendo competiciones por toda Sevilla.
         <br> <center><i>Aquí en uno de los primeros torneos que jugue.</i>
             <br>
-            <img src="img/padel.jpg" width="350" height="200">
+            <img id="caja2" src="img/padel.jpg" width="350" height="200">
             <br>
             <!-- Esta parte es nueva -->
             <a href="https://www.youtube.com/watch?v=Esyw-j1rSZQ">Mi jugador de padel favorito.</a>
             <br>
             <i>Aquí una foto de mi ultima competicion.</i>
             <br>
-            <img src="img/competicion.jpg" width="200" height="350">
+            <img id="caja2" src="img/competicion.jpg" width="200" height="350">
             <br>
             <u>Ahora no hago mucho deporte por los estudios.</u></center> 
     </p></div>
     <!-- A partir de aqui segunda entrega y lo añadido arriba -->
-    <div><h3>Fútbol</h3>
+    <div id="caja1"><h3>Fútbol</h3><br>
         <label>Me ha gustado el futbol toda mi vida, desde pequeño he sido muy fan del Atletico de Madrid. De los equipos más importantes de España, ¿cúal es tu preferido?</label>
         <fieldset>
             <div>
@@ -104,7 +109,7 @@
           </table>
 
     </div>
-    <div><h3>Música</h3>
+    <div id="caja1"><h3>Música</h3>
         <p>Esta es una de mis canciones favoritas:</p>
         <center><audio src="img/Tyler The Creator - Yonkers.mp3" controls></audio></center>
         <span>¿Cual es tu estilo de musica preferido?</span>
@@ -116,9 +121,10 @@
             <option value="dubstep">Dubstep</option>
         </select>
     </div>
-    <div><h3>Videos</h3>
+    <div id="caja1"><h3>Videos</h3>
         <p> Este video es uno de los que más gracia me hace y encima es en portugues: </p>
-        <center><video src="img/un sirif facendo pa.mp4" controls width="400"></video></center>
+        <center><video id="caja2" src="img/un sirif facendo pa.mp4" controls width="400"></video></center>
     </div>
+  </article>
 </body>
 </html>
